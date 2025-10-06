@@ -1,0 +1,14 @@
+.heading{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+.head1,.head3{
+    color:purple
+}
+
+
+.head1,.head4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px  2px 1px  black;
+}

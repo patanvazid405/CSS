@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#id{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 90px;
+    font-weight: 700;
+    text-shadow: 2px 2px red;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(103, 103, 201);
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    position:fixed;
+   
+}
+li{
+     list-style: none;
+     font-size: larger;
+    padding-left: 10px;
+    justify-content: space-between;
+    margin-left: 50px;
+    
+}
+
+.container{
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    background-color: #C3F2F6;
+    box-shadow: 1px 4px 4px 2px rgb(47, 47, 47);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.img1{
+    height: 160px;
+    width: 190px;
+    /* border:1px solid black; */
+    background-image: url("https://filmfare.wwmindia.com/content/2025/sep/pawankalyanplaysagansterinog21758531553.jpg");
+    background-size: 200px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2:hover{
+    color: red;
+    transition: 0.3s;
+}
+p{
+    padding: 7px;
+    text-align: justify;
+    margin: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.img2{
+    height: 160px;
+    width: 190px;
+    /* border:1px solid black; */
+    background-image: url("https://www.thestatesman.com/wp-content/uploads/2024/11/Prabhas-Prabhas-films-Southern-Cinema-Telugu-Cinema-Prabhas-22-years-jpg.webp");
+    background-size: 240px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-right: 40px;
+  
+}
+.img3{
+    height: 160px;
+    width: 190px;
+    /* border:1px solid black; */
+    background-image: url("https://images.news18.com/ibnlive/uploads/2022/08/mahesh-babu.jpg");
+    background-size: 240px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-right: 30px;
+}
+.img4{
+    height: 160px;
+    width: 190px;
+    /* border:1px solid black; */
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaVRf8iWltuMzYDYY5h2AohB1Ov9e-IjGJZFtyo_BSqCtJynNdko41Ee0qn6oZFOrjGQ4uQqm2bAFYy4Sg_EyqBHKWauGk-52qhrqXxA");
+    background-size: 175px;
+    padding-right: 50px;
+    margin-top: -40px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-right: 30px;
+}
