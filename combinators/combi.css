@@ -1,0 +1,23 @@
+/* #child selector (>) */
+
+div>p{
+    background-color: green;
+    color: white;
+}
+
+div>span>p{
+    background-color: black;
+    color: white;
+}
+
+div+h1{
+    background-color: blue;
+}
+
+div p{
+    background-color: orangered;
+}
+
+div~h1,p{
+    background-color: brown;
+}
