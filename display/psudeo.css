@@ -1,0 +1,93 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* height: 600px; */
+    flex-wrap: wrap;
+    align-content: baseline;
+    gap: 10px;
+
+}
+
+.item{
+    height: 100px;
+    width: 150px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 10px;
+    
+}
+.item-1{
+    background-color: green;
+    flex-shrink: 2;
+}
+.item-2{
+    background-color: aqua;
+    flex-grow: 2;
+}
+.item-3{
+    background-color: blueviolet;
+    order: -2;
+}
+.item-4{
+    background-color: chocolate;
+    flex-grow: 2;
+}
+.item-5{
+    background-color: yellow;
+    flex-shrink: 2;
+    order: -1;
+}
+/*Pseudo Classes*/
+/* a:active{
+    background-color: red;
+} */
+
+a:link{  /* gives bg color to link*/
+    background-color: aquamarine;
+}
+/* a:checked{
+    background-color: chartreuse;
+} */
+a:hover{
+    color: orange;
+}
+
+ul>li{
+    background-color: burlywood;
+    list-style: none;
+    margin: 10px;
+}
+
+ul>li:nth-child(even){
+    background-color: aqua;
+}
+ul>li:nth-child(odd){
+    background-color: greenyellow;
+}
+ul:nth-last-child{
+    background-color: black;
+}
+.parent{
+    width: 900px;
+    border: 2px solid black;
+    height: 500px;
+    z-index: +3;
+    overflow: hidden;
+    width: 500px;
+
+}
+.img>img{
+    width: 100%;
+    display: none;
+}
+
+#a:checked~.img>:nth-child(1){
+    display: inline-block;
+}
+#b:checked~.img>:nth-child(2){
+    display: inline-block;
+}
+
+
+

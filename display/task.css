@@ -1,0 +1,32 @@
+div{
+    background-color: green;
+    width: 400px;
+    height: 300px;
+    display: inline;
+
+}
+span{
+    background-color: black;
+    color: wheat;
+    width: 100px;
+    height: 150px;
+    display: block; 
+}
+p{
+    background-color: aqua;
+    display: inline-block;
+    height: 200px;
+
+}
+#div{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    display: inline-block;
+    visibility: hidden;  /*makes hidden the ele but occupies the space*/ 
+} 
+
+/* .container{
+    display: flex;
+} */

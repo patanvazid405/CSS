@@ -1,0 +1,84 @@
+.parent{
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+
+.item{
+font-size: xx-large;
+padding: 10px;
+
+}
+.item-1{
+    background-color: aquamarine;
+}
+.item-2{
+    background-color: rgb(144, 99, 185);
+}
+.item-3{
+    background-color: rgb(148, 210, 85);
+}
+.item-4{
+    background-color: rgb(139, 139, 229);
+}
+.item-5{
+    background-color: gold;
+}
+
+.align{
+    border: 2px solid black;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: flex-start;
+    align-items: flex-end; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    /* background-color: black; */
+    color: white;
+    border-radius: 20px;
+    font-size: xx-large;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: black;
+    box-shadow: 4px 4px 4px black;
+}
+.bi{
+    font-size: 80px;
+    padding: 10px;
+
+}
+
+.navb{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px black;
+    
+
+}
+.it-1,.it-2,.it-3,.it-4{
+    font-size: 30px ;
+    padding: 10px;
+}
+span{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.it-1,.it-2,.it-3,.it-4:hover{
+    /* transition: transform 0.3s ease;
+    transform: scale(1.5,2.0); */
+
+}
