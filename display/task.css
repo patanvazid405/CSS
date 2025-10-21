@@ -30,3 +30,11 @@ p{
 /* .container{
     display: flex;
 } */
+
+table>td{
+    height: 100px;
+    width: 100px;
+    }
+table>td:nth-child(even){
+    background-color: green;
+    }

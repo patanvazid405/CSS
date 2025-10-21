@@ -1,0 +1,21 @@
+.board{
+    width: 800px;
+    height: 800px;
+    /* border: 1px solid black;  */
+    display: flex;  
+    flex-wrap: wrap;
+    align-content: baseline;
+    overflow: hidden;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+   
+}
+
+.div:nth-child(even){
+    background-color: grey;
+}

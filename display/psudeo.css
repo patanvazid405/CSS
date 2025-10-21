@@ -82,10 +82,10 @@ ul:nth-last-child{
     display: none;
 }
 
-#a:checked~.img>:nth-child(1){
+#a:checked ~ .img > :nth-child(1) {
     display: inline-block;
 }
-#b:checked~.img>:nth-child(2){
+#b:checked ~ .img > :nth-child(2) {
     display: inline-block;
 }
 
