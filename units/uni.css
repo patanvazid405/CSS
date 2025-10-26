@@ -51,3 +51,19 @@ h1{
     border-radius: 20px;
 
 }
+
+.parent{
+    height: 400px;
+    width: 500px;
+    background-color: chocolate;
+    z-index: +5;
+}
+.children{
+    height: 60vw; /*it only consider the viewport width not parent */
+    width: 80vw; /*it only consider the viewport width not parent */
+    background-color: aquamarine;
+    z-index: -5;
+}
+
+/* rem root element font size */
+

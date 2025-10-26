@@ -1,0 +1,18 @@
+/* rem root element font style used only for font size*/
+/* default font size is 16px */
+
+:root{
+    font-size: 50px;  /* we can modify rem size*/
+}
+.parent{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(74, 235, 11);
+    font-size: 20px;
+}
+
+.child{
+    height: 1em;
+    width: 1em;
+    background-color: rgb(18, 36, 36);
+}
