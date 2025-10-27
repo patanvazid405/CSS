@@ -7,10 +7,12 @@ html,body{
 }
 nav{
     height: 8%;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     color: white;
     position: fixed;
+    display: flex;
+    justify-content: center;
 }
   
 nav>ul{
