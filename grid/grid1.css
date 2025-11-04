@@ -1,0 +1,216 @@
+.container{
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 50%;
+    height: 500px;
+    gap:10px;
+    
+}
+
+.item-1{
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.item-2{
+    background-color: aqua;
+    grid-column: 2/4;
+    grid-row : 1/2;
+}
+.item-3{
+    background-color: aqua;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+.item-4{
+    background-color: aqua;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    
+}
+
+.item-5{
+    background-color: aqua;
+}
+
+.parent{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 500px;
+    gap:10px;
+}
+.child-1{
+    background-color: greenyellow ;
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+.child-2{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: green;
+}
+
+.child-3{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: blue;
+}
+.child-4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: yellow;
+}
+.child-5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: orange;
+}
+.child-6{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: rgb(255, 0, 102);
+}
+
+.child-7{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: orange;
+}
+.child-8{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgb(245, 221, 2);
+}
+
+
+.dad{
+    display: grid;
+    /* border: 2px solid black; */
+    height: 800px;
+    gap:10px;
+    width: 50%;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(4,2fr);
+    text-align: center;
+    justify-content:center ;
+    font-size: 1.5rem;
+
+}
+
+.hill-1{
+    background-color: rgb(19, 19, 134);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+.hill-2{
+    background-color: green;
+    grid-column: 2/3;
+    grid-row:1/2;
+    border-radius: 10px;
+}
+.hill-3{
+    background-color: gold;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-radius: 10px;
+}
+.hill-4{
+    background-color: aqua;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 10px;
+}
+.hill-5{
+    background-color: hotpink;
+    grid-column: 3/4;
+    grid-row: 2/4;
+    border-radius: 10px;
+
+}
+.hill-6{
+    background-color: blueviolet;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 10px;
+}
+.hill-7{
+    background-color: silver;
+    border-radius: 10px;
+
+}
+.hill-8{
+    background-color: chocolate;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    border-radius: 10px;
+
+}
+.hill-9{
+    background-color: cadetblue;
+    grid-column: 2/4;
+    grid-row:4/5;
+    border-radius: 10px;
+}
+
+.mom{
+    display: grid;
+    height: 800px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    "a b a b"
+    "c d c d"
+    "c e c e"
+    "d f d f"
+    "e e f f"
+    "g h h g"
+    "g e e g";
+}
+/* .item>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
+} */
+#div1{
+    grid-area: a;
+    background-color: antiquewhite;
+}
+#div2{
+    grid-area: b;
+    background-color: aquamarine;
+}
+#div3{
+    grid-area: c;
+    background-color: blue;
+}
+#div4{
+    grid-area: d;
+    background-color: chartreuse;
+}
+#div5{
+    grid-area: e;
+    background-color: darkgoldenrod;
+}
+#div6{
+    grid-area: f;
+    background-color: silver;
+}
+#div7{
+    grid-area: g;
+    background-color: violet;
+}
+
+#div8{
+    grid-area: h;
+    background-color: orange;
+}
+
+
+

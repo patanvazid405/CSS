@@ -1,0 +1,71 @@
+.container{
+    height: 500px;
+    width:500px;
+    background-color: aquamarine;
+    animation-name: bgcolor;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* body{
+ animation:bgcolor infinite 1s linear;
+} */
+/* @keyframes bgcolor {
+    from{
+        background-color: blueviolet;
+    }
+    to{
+        background-color: red;
+    }
+    
+} */
+
+@keyframes bgcolor {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: brown;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: chartreuse;
+    }
+    
+}
+
+.image{
+    height: 300px;
+    width:300px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    animation: drop linear 5s infinite;
+
+}
+
+.image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes drop {
+    from{
+        transform:  translateY(-500px) rotate(360deg);
+        
+    }
+    to{
+        transform: translateY(500px);
+        opacity: 0.5;
+    }
+    
+}
+
+

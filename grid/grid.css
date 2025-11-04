@@ -1,0 +1,40 @@
+.container{
+    border:2px solid black;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-template-rows: repeat(3,4fr);
+    gap:10px;
+    height: 100vh;
+    text-align: center;
+}
+.item-1{
+    background-color: green;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+}
+.item-2{
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.item-3{
+    background-color: bisque;
+    grid-column: 2/3;
+    grid-row: ;
+}
+
+.item-4{
+background-color: yellow;
+grid-column: 3/4;
+grid-row: 2/3 ;
+}
+
+.item-5{
+    background-color: brown;
+    grid-column:2/4 ;
+    grid-row: 3/4;
+}
+
+
